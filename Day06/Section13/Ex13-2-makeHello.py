@@ -6,7 +6,7 @@ open 함수 모드
     t(text mode) : 해당파일의 데이터를 텍스트 파일로 인식하고 입출력.
     b(binary mode) : 해당 파일의 데이터를 바이너리 파일로 인식하고 입출력.
 '''
-file = open('hello.txt', 'wt', encoding='UTF-8')
+file = open('hello3.txt', 'wt')
 file.write('안녕하세요.')
 file.write('\n')
 file.write('반갑습니다.')
