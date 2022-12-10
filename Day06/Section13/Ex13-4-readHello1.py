@@ -9,7 +9,7 @@ r (read mode) : 읽기 전용 모드 / 파일없으면 에러
         . -> 현재폴더
 '''
 
-file = open('hello.txt', 'rt', encoding='UTF-8')
+file = open('..//test//hello.txt', 'rt', encoding='UTF-8')
 str = file.read()
 print(str, end='')
 file.close()
